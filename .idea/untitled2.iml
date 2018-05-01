@@ -32,6 +32,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activejob (v5.1.6, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v5.1.6, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v5.1.6, Remote: ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord-session_store (v1.1.1@3e0147, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v5.1.6, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.5.2, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v8.0.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
@@ -45,20 +46,25 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.2.2, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, Remote: ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.7, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.5, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.4.3, Remote: ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="devise-bootstrap-views (v0.0.11, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.7.1, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.23, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.1, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.0.1, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.7.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="less (v2.6.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="less-rails (v2.8.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.16.14.19, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.2.2, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v0.9.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="milia (v1.3.1@05b72d, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.0.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.3.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, Remote: ruby-2.5.0-p0) [gem]" level="application" />
@@ -95,6 +101,7 @@
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.8, Remote: ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v4.0.0, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.5, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v4.1.10, Remote: ruby-2.5.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.7, Remote: ruby-2.5.0-p0) [gem]" level="application" />

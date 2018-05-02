@@ -30,12 +30,17 @@ Milia.setup do |config|
 # ASSUMES User model
   config.use_invite_member = true
 
+# whitelist user params list
+# allows an app to expand the permitted attribute list
+# specify each attribute as a symbol
+# example: [:name]
+# config.whitelist_user_params = []
+
 # whitelist tenant params list
 # allows an app to expand the permitted attribute list
 # specify each attribute as a symbol
 # example: [:name]
-# config.whitelist_tenant_params = []
-  config.whitelist_tenant_params = [:plan]
+  config.whitelist_tenant_params = [:plan, :token]
 
 # whitelist coupon params list
 # allows an app to expand the permitted attribute list

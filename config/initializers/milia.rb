@@ -8,7 +8,7 @@ Milia.setup do |config|
   config.use_coupon = false
 
 # true if you use recaptcha on your sign-up form;
-  # be sure to include the gem 'recaptcha' in your Gemfile
+# be sure to include the gem 'recaptcha' in your Gemfile
 # false if you do not
   config.use_recaptcha = false
 
@@ -17,29 +17,30 @@ Milia.setup do |config|
   config.signout_to_root = true
 
 # true if you are using airbrake to be notified of exceptions
-  # be sure to include the gem 'airbrake' in your Gemfile
+# be sure to include the gem 'airbrake' in your Gemfile
 # false if you do not
 # In certain situations, milia will notify airbrake of a situation which
-  # is not necessarily an exception: such as if someone attempts to
-  # sign up but you're limited new sign ups (such as when in beta mode)
-  # then you'll get notified via airbrake of the email of the person
-  # attempting the signup (in case you wish to contact them)
+# is not necessarily an exception: such as if someone attempts to
+# sign up but you're limited new sign ups (such as when in beta mode)
+# then you'll get notified via airbrake of the email of the person
+# attempting the signup (in case you wish to contact them)
   config.use_airbrake = false
 
 # use invite_member for devise work-around to invite members
 # ASSUMES User model
   config.use_invite_member = true
 
-  # whitelist tenant params list
-  # allows an app to expand the permitted attribute list
-  # specify each attribute as a symbol
-  # example: [:name]
-  # config.whitelist_tenant_params = []
+# whitelist tenant params list
+# allows an app to expand the permitted attribute list
+# specify each attribute as a symbol
+# example: [:name]
+# config.whitelist_tenant_params = []
+  config.whitelist_tenant_params = [:plan]
 
-  # whitelist coupon params list
-  # allows an app to expand the permitted attribute list
-  # specify each attribute as a symbol
-  # example: [:coupon]
-  # config.whitelist_coupon_params = []
+# whitelist coupon params list
+# allows an app to expand the permitted attribute list
+# specify each attribute as a symbol
+# example: [:coupon]
+# config.whitelist_coupon_params = []
 
 end

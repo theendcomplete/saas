@@ -30,6 +30,8 @@
           = f.password_field :password_confirmation, :class => "text_field"
           %span.description to confirm your password
 
+
+
         .group
           = fields_for( :tenant ) do |w|
             = w.label( :name, 'Organization', :class => "label" )

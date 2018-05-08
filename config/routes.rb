@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  resources :projects
   resources :members
   get 'home/index'
 
   root :to => "home#index"
+
 
 
   # *MUST* come *BEFORE* devise's definitions (below)
@@ -19,6 +21,11 @@ Rails.application.routes.draw do
       :passwords => "milia/passwords",
   }
 
+  resources :tenants do
+
+    resources :projects
+
+  end
 
   # get 'home/index'
   # root 'home#index'

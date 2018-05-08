@@ -35,13 +35,13 @@ development:
   <<: *default
   database: saas_dev
   username: postgres
-  password: password
+  password: Slayer123
 
 test:
   <<: *default
   database: saas_test
   username: postgres
-  password: password
+  password: Slayer123
 production:
   <<: *default
   database: saas

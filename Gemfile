@@ -14,7 +14,7 @@ gem 'devise'
 
 gem 'milia'
 gem 'pg'
-
+gem 'aws-sdk'
 # gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'

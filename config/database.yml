@@ -35,13 +35,13 @@ development:
   <<: *default
   database: saas_dev
   username: postgres
-  password: Slayer123
+  password: ENV['PG_PASSWORD']
 
 test:
   <<: *default
   database: saas_test
   username: postgres
-  password: Slayer123
+  password: ENV['PG_PASSWORD']
 production:
   <<: *default
   database: saas

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_projects
   resources :artifacts
   resources :projects
   resources :members
@@ -15,18 +16,28 @@ Rails.application.routes.draw do
   end
 
   devise_for :users, :controllers => {
-      :registrations => "milia/registrations",
+      # :registrations => "milia/registrations",
+      :registrations => "registrations",
       # :confirmations => "milia/confirmations",
       :confirmations => "confirmations",
       :sessions => "milia/sessions",
       :passwords => "milia/passwords",
   }
-
   resources :tenants do
 
-    resources :projects
+    resources :projects do
+
+      get 'users', on: :member
+
+      put 'add_user', on: :member
+
+    end
 
   end
+
+  match '/plan/edit' => 'tenants#edit', via: :get, as: :edit_plan
+
+  match '/plan/update' => 'tenants#update', via: [:put, :patch], as: :update_plan
 
   # get 'home/index'
   # root 'home#index'

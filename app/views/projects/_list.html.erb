@@ -48,6 +48,8 @@
 
                       :class => 'btn btn-default btn-xs' %>
 
+          <%= link_to 'Edit Users', users_tenant_project_path(project, tenant_id: @tenant.id), :class => 'btn btn-default btn-xs' %>
+
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
 
                       tenant_project_path(project, tenant_id: @tenant.id),
